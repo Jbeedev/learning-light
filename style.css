@@ -1,0 +1,64 @@
+.container {
+  display: flex;
+}
+.navbar-container {
+  flex: 6;
+}
+.navbar{
+  border-bottom: 0.5px solid rgb(230, 227, 227);
+  padding: 0 2rem;
+}
+.navbar-content {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+  }
+.search-container{
+    width: 100%
+}
+.search-container input{
+    width: 100%;
+}
+.user-menu{
+    display: flex;
+    align-items: end;
+    justify-items: end;
+    width: 100%;
+    float:right
+}
+
+.sidebar-container {
+  flex: 2;
+  border-bottom: 0.5px solid rgb(230, 227, 227);
+  border-right: 0.5px solid rgb(230, 227, 227);
+}
+.sidebar {
+  border-bottom: 0.5px solid rgb(230, 227, 227);
+}
+
+/*  */
+.nav-icon,
+.sidebar-items p {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  gap: 10px;
+}
+
+.progress-content {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.progress-bar {
+  width: 200px;
+  height: 5px;
+  background-color: lightgray;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.progress {
+  height: 100%;
+  /* transition: width 0.5s ease-in-out; */
+}
