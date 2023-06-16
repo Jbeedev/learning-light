@@ -146,6 +146,13 @@ body{
   justify-items: center;
   gap: 10px;
 }
+.top-card-description{
+  background-color: rgb(52, 52, 156); 
+  flex: 7; 
+  border-radius: 10px; 
+  padding: 20px; 
+  color: white;
+}
 .top-content-left{
   flex: 7;
   background-color:rgb(210, 221, 252);;
@@ -214,6 +221,7 @@ body{
   display: flex;
   align-items: center;
   justify-items: center;
+  margin-bottom: 10px;
   gap: 10px;
 }
 .bottom-content-left{
@@ -221,7 +229,18 @@ body{
   background-color:rgb(210, 221, 252);;
   border-radius: 20px;
   padding: 0;
-  
+}
+.bottom-content-left div{
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  justify-items: center; 
+  margin: 0; 
+  padding-top:10px ;
+}
+.category{
+  padding: 0; 
+  margin-bottom: 5px;
 }
 .bottom-content-right{
   flex: 3;
