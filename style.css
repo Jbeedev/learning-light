@@ -7,6 +7,8 @@ body{
   display: flex;
   padding: 15px;
 }
+
+/****** navbar styles ******/
 .navbar-container {
   flex: 6;
 }
@@ -63,7 +65,7 @@ body{
 }
 
 
-/*  */
+/****** sidebar styles ******/
 .nav-icon,
 .sidebar-items h4 {
   display: flex;
@@ -100,6 +102,7 @@ body{
 }
 
 
+/****** main content styles ******/
 .main-content{
   padding: 2.5rem 1.2rem;
 }
