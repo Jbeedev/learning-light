@@ -59,7 +59,7 @@
                             Basic of Composition
                         </p>
                         <div class="progress-bar">
-                            <div class="progress" style="width: 80%; background-color: purple;"></div>
+                            <div class="progress" style="width: 80%; " ></div>
                         </div>
                         <div class="progress-content">
                             <p>4/5</p>
@@ -71,7 +71,7 @@
                             Typographical Basic
                         </p>
                         <div class="progress-bar">
-                            <div class="progress" style="width: 60%; background-color: purple;"></div>
+                            <div class="progress" style="width: 60%;"></div>
                         </div>
                         <div class="progress-content">
                             <p>3/5</p>
@@ -83,7 +83,7 @@
                             Color Basics
                         </p>
                         <div class="progress-bar">
-                            <div class="progress" style="width: 40%; background-color: purple;"></div>
+                            <div class="progress" style="width: 40%;"></div>
                         </div>
                         <div class="progress-content">
                             <p>2/5</p>
@@ -96,7 +96,7 @@
                             Modular Mesh
                         </p>
                         <div class="progress-bar">
-                            <div class="progress" style="width: 60%; background-color: purple;"></div>
+                            <div class="progress" style="width: 60%;"></div>
                         </div>
                         <div class="progress-content">
                             <p>3/5</p>
@@ -110,14 +110,15 @@
         <div class="navbar-container">
             <div class="navbar">
                 <div class="navbar-content">
-                    <div class="search-container"><input placeholder="Search" /></div>
-                    <div class="user-menu">
-                        <ion-icon name="person-circle-sharp"></ion-icon>
-                        <div>
-                            <ion-icon name="person-circle-sharp"></ion-icon>
-                            <span>John Doe</span>
-                        </div>
-                    </div>
+                    <p class="search-bar">
+                        <ion-icon name="search-sharp"></ion-icon>
+                        <input placeholder="Search" />
+                    </p>
+                    <p class="nav-profile">
+                        <ion-icon name="notifications-sharp" size="large" style="margin-right: 20px;"></ion-icon>
+                        <img src="/asset/avatar2.jpg" alt="user image">
+                        <span>Debra Cooper</span>
+                    </p>
                 </div>
             </div>
             <main class="main-content">
@@ -138,28 +139,31 @@
                                 <h3>Article <span style="color: rgb(38, 53, 187)">162</span></h3>
                                 <div class="top-card-content">
                                     <div class="top-content-left">
-                                        <h2>Inclusive Design<br>Principles</br></h2>
-                                        <p class="time"><ion-icon name="time"></ion-icon><span>5min</span></p>
-                                        <div class="user-profile">
-                                            <img src="/asset/avatar3.png" alt="">
-                                            <div>
-                                                <p>Rosemary Steward</p>
-                                                <p>Feb 11</p>
+                                        <div>
+                                            <h2>Inclusive Design<br>Principles</br></h2>
+                                            <p class="time"><ion-icon name="time"></ion-icon><span>5min</span></p>
+                                            <div class="user-profile">
+                                                <img src="/asset/avatar3.png" alt="">
+                                                <div>
+                                                    <p>Rosemary Steward</p>
+                                                    <p>Feb 11</p>
+                                                </div>
                                             </div>
                                         </div>
+                                        <img src="/asset/un-surv-bg.png" alt="" style="width: 50%; height: 50%;">
                                     </div>
                                     <div class="top-content-right">
                                         <h2>Design Trends<br>in 2020</br></h2>
-                                        <span class="time-right"><ion-icon name="time"></ion-icon><span>1min</span></span>
+                                        <span class="time-right"><ion-icon
+                                                name="time"></ion-icon><span>1min</span></span>
                                         <div class="user-profile">
-                                            <img class="right" src="/asset/avatar3.png" alt="">
+                                            <img class="right" src="/asset/avatar2.jpg" alt="">
                                             <div>
                                                 <p>Bessie Bell</p>
                                                 <p>Feb 4</p>
                                             </div>
                                         </div>
                                     </div>
-                                    <!-- <img class="content-image" src="/asset/product3.jpg" alt=""> -->
                                 </div>
 
                             </div>
@@ -170,24 +174,27 @@
                                 <div class="bottom-content-left">
                                     <div
                                         style="display: flex; flex-direction: column; align-items: center; justify-items: center; margin: 0; padding-top:10px ;">
-                                        <img src="/asset/avatar2.jpg" alt="" style="width: 50%; height: 50%;">
+                                        <img src="/asset/un-edu-bg.png" alt="Education"
+                                            style="width: 90%; height: 90%;">
                                         <p style="padding: 0; margin-bottom: 5px;">Education</p>
                                     </div>
                                 </div>
                                 <div class="bottom-content-left">
                                     <div
                                         style="display: flex; flex-direction: column; align-items: center; justify-items: center; margin: 0; padding-top:10px ;">
-                                        <img src="/asset/avatar2.jpg" alt="" style="width: 50%; height: 50%;">
+                                        <img src="/asset/un-work-bg.png" alt="Work" style="width: 100%; height: 100%;">
 
                                         <p style="padding: 0; margin-bottom: 5px;">Work</p>
                                     </div>
                                 </div>
+
                             </div>
                             <div class="bottom-card-content">
                                 <div class="bottom-content-left">
                                     <div
                                         style="display: flex; flex-direction: column; align-items: center; justify-items: center; margin: 0; padding-top:10px ;">
-                                        <img src="/asset/avatar2.jpg" alt="" style="width: 50%; height: 50%;">
+                                        <img src="/asset/un-uni-bg.png" alt="University"
+                                            style="width: 100%; height: 100%;">
 
                                         <p style="padding: 0; margin-bottom: 5px;">University</p>
                                     </div>
@@ -195,7 +202,8 @@
                                 <div class="bottom-content-left">
                                     <div
                                         style="display: flex; flex-direction: column; align-items: center; justify-items: center; margin: 0; padding-top:10px ;">
-                                        <img src="/asset/avatar2.jpg" alt="" style="width: 50%; height: 50%;">
+                                        <img src="/asset/un-tech-bg.png" alt="Technology"
+                                            style="width: 70%; height: 70%;">
 
                                         <p style="padding: 0; margin-bottom: 5px;">Technology</p>
                                     </div>
@@ -206,14 +214,14 @@
 
 
 
-
                     <div class="top-bar">
                         <div class="article-cont">
                             <div>
-                                <h4 class="article-cont-heading">Video Lessons <span style="color: rgb(38, 53, 187)">124</span></h4>
+                                <h4 class="article-cont-heading">Video Lessons <span
+                                        style="color: rgb(38, 53, 187)">124</span></h4>
                                 <div class="top-card-content">
-                                    <div class="top-content-left">
-                                        <p>We create effective<br>texts for landing</br></p>
+                                    <div class="" style="background-color: rgb(52, 52, 156); flex: 7; border-radius: 10px; padding: 20px; color: white;">
+                                        <h3>We create effective<br>texts for landing</br></h3>
 
                                         <div class="user-profile-bottom">
                                             <img src="/asset/avatar.jpg" alt="">
@@ -246,15 +254,13 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <!-- <img class="content-image" src="/asset/product3.jpg" alt=""> -->
                                 </div>
-
                             </div>
                         </div>
                         <div class="theme-cont">
                             <div class="top-teacher-heading">
                                 <h4>Top Teachers</h4>
-                                <ion-icon name="arrow-forward-outline"></ion-icon>
+                                <ion-icon name="arrow-forward-outline" style="color:rgb(47, 81, 173)"></ion-icon>
 
                             </div>
                             <div class="top-teacher-container">
@@ -266,7 +272,7 @@
                                             <p>5 years experience</p>
                                         </div>
                                     </div>
-                                    <p>5.0</p>
+                                    <p class="rating">5.0</p>
                                 </div>
                                 <div class="top-teacher-item">
                                     <div class="top-teacher-content">
@@ -276,27 +282,27 @@
                                             <p>6 years experience</p>
                                         </div>
                                     </div>
-                                    <p>4.9</p>
+                                    <p class="rating">4.9</p>
+                                </div>
+                               <div class="top-teacher-item">
+                                    <div class="top-teacher-content">
+                                        <img src="asset/avatar4.jpg" alt="">
+                                        <div>
+                                            <p>Marvin Hawkins</p>
+                                            <p>5 years experience</p>
+                                        </div>
+                                    </div>
+                                    <p class="rating">4.5</p>
                                 </div>
                                 <div class="top-teacher-item">
                                     <div class="top-teacher-content">
-                                        <img src="/asset/avatar4.jpg" alt="">
+                                        <img src="asset/avatar2.jpg" alt="">
                                         <div>
-                                            <p>Betie Watson</p>
-                                            <p>2 years experience</p>
+                                            <p>Marvin Hawkins</p>
+                                            <p>5 years experience</p>
                                         </div>
                                     </div>
-                                    <p>4.8</p>
-                                </div>
-                                <div class="top-teacher-item">
-                                    <div class="top-teacher-content">
-                                        <img src="/asset/avatar2.jpg" alt="">
-                                        <div>
-                                            <p>Albert Bell</p>
-                                            <p>3 years experience</p>
-                                        </div>
-                                    </div>
-                                    <p>4.8</p>
+                                    <p class="rating">4.8</p>
                                 </div>
                             </div>
                         </div>
